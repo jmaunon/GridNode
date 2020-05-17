@@ -18,7 +18,8 @@ PyGrid Node is a server based application used by the [PyGrid Platform](https://
 #### Using Python
 To start a grid node using python, run:
 ```
-python grid_node.py
+python setup.py install
+python -m grid_node <arguments>
 ```
 You can pass the arguments or use environment variables to set the grid node configs.  
 
@@ -53,32 +54,6 @@ $ docker pull openmined/grid-node  # Download grid node image
 #### Build your own PyGrid Node image
 ```
 $ docker build openmined/grid-node . # Build grid node image
-```
-
-#### Starting manually
-To start the GridNode app manually, run:
-
-```
-python setup.py install  # this will install pygrid as a package
-python -m grid_node <arguments>  # this will start pygrid
-```
-**Arguments**
-```
-Run Grid Node application.
-
-optional arguments:
-  -h, --help            show this help message and exit
-  --id ID               Grid node ID, e.g. --id=alice. Default is
-                        os.environ.get('GRID_WS_ID', None).
-  --port PORT, -p PORT  Port number of the socket.io server, e.g. --port=8777.
-                        Default is os.environ.get('GRID_WS_PORT', None).
-  --host HOST           Grid node host, e.g. --host=0.0.0.0. Default is
-                        os.environ.get('GRID_WS_HOST','http://0.0.0.0').
-  --gateway_url GATEWAY_URL
-                        Address used to join a Grid Network. This argument is
-                        optional. Default is
-                        os.environ.get('GRID_NETWORK_URL', None).
-  --db_url DB_URL       REDIS database server address
 ```
 
 ## Try out the Tutorials
