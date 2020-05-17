@@ -1,1 +1,1 @@
-from node.version import __version__
+from grid_node.version import __version__
