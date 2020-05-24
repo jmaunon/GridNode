@@ -10,21 +10,19 @@
 
 # GridNode
 
-GridNode helps to data owners to manage their data, being the place where data lives. It is one of the members of [PyGrid Platform](https://github.com/OpenMined/PyGrid/):
+GridNode helps to data owners manage their data, being the place where data lives. It is part of the [PyGrid Platform](https://github.com/OpenMined/PyGrid/):
 - PyGrid.  A server based application used to manage/monitor/control and route grid Nodes/Workers remotely.
 - **GridNode**. A server based application used to store and manage data access in a secure and private way.
 - GridWorkers. Clientd based app that uses different Syft based libraries to perform federated learning (ex: syft.js, KotlinSyft, SwiftSyft).
 
 
-
-
 ## Installation
 
-Use python setuptools to install GridNode
+Use the package manager pip to install GridNode
 
 ```bash
 git clone https://github.com/OpenMined/GridNode
-python setup.py install
+pip install .
 ```
 
 ## Usage
