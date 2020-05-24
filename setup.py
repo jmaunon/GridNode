@@ -35,13 +35,15 @@ tests_require = ["pytest", "pytest-flake8"]
 
 
 setup(
-    name="grid-node",
+    name="gridnode",
     version="0.0.0",
-    author="Ionesio Junior, Andrew Trask",
+    author="OpenMined",
     author_email="contact@openmined.org",
     description=(
-        "GridNode is a component of PyGrid. PyGrid is a peer-to-peer network of data owners and data scientists who can collectively train AI models using PySyft."
+        "GridNode is a server based application used to store and manage data access in a secure and private way."
     ),
+    maintainer="Benardi Nunes",
+    maintainer_email="benardinunes@gmail.com",
     license="Apache-2.0",
     keywords="deep learning artificial intelligence privacy secure multi-party computation federated learning differential privacy",
     packages=find_packages(exclude=["docs", "examples", "dist"]),
