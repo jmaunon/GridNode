@@ -21,6 +21,7 @@ parser.add_argument(
     type=str,
     help="Grid node ID, e.g. --id=alice. Default is os.environ.get('GRID_WS_ID', None).",
     default=os.environ.get("GRID_WS_ID", None),
+    required=True,
 )
 
 parser.add_argument(
@@ -29,6 +30,7 @@ parser.add_argument(
     type=int,
     help="Port number of the socket.io server, e.g. --port=8777. Default is os.environ.get('GRID_WS_PORT', None).",
     default=os.environ.get("GRID_WS_PORT", None),
+    required=True,
 )
 
 parser.add_argument(
