@@ -17,7 +17,7 @@ from geventwebsocket.handler import WebSocketHandler
 parser = argparse.ArgumentParser(description="Run Grid Node application.")
 parser._action_groups.pop()
 
-required = parser.add_argument_group("required arguments")
+required = parser.add_argument_group("required  arguments")
 optional = parser.add_argument_group("optional arguments")
 
 
