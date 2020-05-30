@@ -3,13 +3,12 @@ Flask-Cors==3.0.7
 Flask-Sockets==0.2.1
 flask_login
 gevent==1.4.0
-syft==0.2.6
 gunicorn==19.9.0
 itsdangerous==1.1.0
 Jinja2==2.10.1
 MarkupSafe==1.1.1
-Werkzeug==0.15.3
+redis
 requests==2.22.0
 requests_toolbelt
-flask_login
-redis
+syft==0.2.6
+Werkzeug==0.15.3
