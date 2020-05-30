@@ -9,7 +9,7 @@ import sys
 
 import argparse
 
-from grid_node.app import create_app
+from . import create_app
 
 from gevent import pywsgi
 from geventwebsocket.handler import WebSocketHandler
