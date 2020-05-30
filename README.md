@@ -1,11 +1,7 @@
-![foobar-logo](https://github.com/OpenMined/design-assets/blob/master/logos/OM/horizontal-primary-trans.png)
+![foobar-logo](https://raw.githubusercontent.com/OpenMined/design-assets/master/logos/PyGrid/horizontal-primary-trans.png)
 
 ![Tests](https://github.com/OpenMined/GridNode/workflows/Run%20tests/badge.svg)
-
-<!-- Coverage action/codecov not integrated ![Coverage](https://img.shields.io/codecov/c/github/OpenMined/PySyft) -->
-<!-- GridNode is not published in pipy ![Downloads](https://img.shields.io/pypi/dd/syft) -->
 ![License](https://img.shields.io/github/license/OpenMined/GridNode)
-<!-- GridNode is not published in pipy ![Version](https://img.shields.io/pypi/v/syft) -->
 ![OpenCollective](https://img.shields.io/opencollective/all/openmined)
 
 # GridNode
